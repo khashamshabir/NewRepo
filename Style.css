@@ -1,0 +1,138 @@
+header{
+  background-color: skyblue;
+  color: black;
+  border-radius: 50px 0 50px 0;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+section.offer{
+  background-image: url("class.jpg");
+  background-repeat: no-repeat;
+  border-radius: 50px 0 50px 0;
+  background-size: 100%;
+  background-attachment: fixed;
+  color: white;
+  padding: 30px;
+  margin: 10px 0;
+  opacity: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section.offer h3{
+  font-size: 2em;
+  text-align: center;
+  color: black;
+}
+
+div.offer{
+  display: inline-table;
+  background-color: black;
+  border-radius: 50px 0 50px 0;
+  opacity: 0.5;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 5px 5px 5px 20px;
+  width: 40%;
+  height: 150px;
+}
+
+section.instructor{
+  background-image: url("instructor.jfif");
+  background-repeat: no-repeat;
+  border-radius: 50px 0 50px 0;
+  background-size: 100%;
+  background-attachment: fixed;
+  opacity: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 30px;
+  margin: 10px 0;
+  color: white;
+}
+
+section.instructor h3{
+  font-size: 2em;
+  text-align: center;
+}
+ 
+
+section.fee{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1;
+  color: white;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 50px 0;
+}
+
+section.fee h3{
+  font-size: 2em;
+  text-align: center;
+  color: black;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+td,th{
+  text-align: left;
+  color: white;
+  padding: 5px;
+}
+tr:nth-child(odd){background-color: gray; }
+
+tr:hover{
+  background-color: skyblue;
+}
+
+
+div.fee{
+  background-color: black;
+  opacity: 0.5;
+  border-radius: 50px 0 50px 0;
+  padding: 20px;
+  /*border-radius: 30px;*/
+  margin: 10px 0;
+}
+
+section.contact{
+  background-image: url("Contact.jpg");
+  background-attachment: fixed;
+  border-radius: 50px 0 50px 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 1;
+  padding: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 10px 0;
+}
+section.contact h3{
+  font-size: 2em;
+  text-align: center;
+}
+div.content{
+  display: flex;
+  background-color: black;
+  border-radius: 50px 0 50px 0;
+  opacity: 0.5;
+  padding: 20px;
+
+}
+p.content{
+  padding: 0 10px;
+  font-size: larg;
+}
+
+footer{
+  background-color: yellow;
+  color: black;
+  border-radius: 50px 0 50px 0;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
